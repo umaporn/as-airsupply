@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.318" height="30.04" viewBox="0 0 32.318 30.04">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(-2 -3)">
+    <g id="shopping-cart" transform="translate(2 2.999)">
+      <path id="Path_22" data-name="Path 22" d="M33.842,9.676A3.338,3.338,0,0,0,31,8.007H9.643L8.675,4.235A1.669,1.669,0,0,0,7.007,3H3.669a1.669,1.669,0,0,0,0,3.338H5.738l4.606,17.123A1.669,1.669,0,0,0,12.013,24.7h15.02a1.669,1.669,0,0,0,1.485-.918L33.992,12.83a3.338,3.338,0,0,0-.15-3.154Z" transform="translate(-2 -2.999)" fill="#fff"/>
+      <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="2.218" cy="2.535" rx="2.218" ry="2.535" transform="translate(6.97 24.971)" fill="#fff"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="2.535" cy="2.535" r="2.535" transform="translate(23.446 24.971)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

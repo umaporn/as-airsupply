@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'kanit-reg';
+  src: local('kanit-reg'), url('/fonts/kanit-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'kanit-bold';
+  src: local('kanit-bold'), url('/fonts/kanit-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font-kanit-regular: 'kanit-reg', sans-serif;
+  --font-bsru-regular: 'bsru-reg', sans-serif;
+  --font-taviraj-regular: 'taviraj-reg', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-kanit-regular);
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.font-kanit-reg {
+  font-family: var(--font-kanit-regular);
+}
+
+.font-kanit-bold {
+  font-family: var(--font-kanit-bold);
+}
+
+input:disabled {
+  background-color: #e9e9e9;
+}
+
+.swiper-container {
+  position: 'relative';
+  padding: '20px';
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: auto;
+}
+
+.swiper-wrapper {
+  position: relative;
+  padding-bottom: 40px !important;
+}
+
+.swiper-scrollbar {
+  background: #d3d3d3 !important;
+  width: 25% !important;
+}
+
+.swiper-scrollbar {
+  bottom: 10px;
+  position: absolute;
+  height: 5px !important;
+  border-radius: 4px;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  left: 38% !important;
+}
+
+.swiper-scrollbar-drag {
+  background: #165686 !important;
+  width: 37% !important;
+}
+.swiper-wrapper {
+  z-index: 1 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    display: none !important;
+  }
+}
+
+.swiper-container {
+  position: relative;
+}
+.swiper-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.custom-prev-arrow,
+.custom-next-arrow {
+  background-color: #d3d3d3;
+  color: #58496b;
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 10 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.custom-prev-arrow {
+  left: -50px;
+}
+
+.custom-next-arrow {
+  right: -50px;
+}

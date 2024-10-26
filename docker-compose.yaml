@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  as-airsupply:
+    tty: true
+    build:
+      context: .
+    ports:
+      - 9599:3000
+    #command: yarn dev
+    #container_name: wre2024_nextjs_dev
+    container_name: as-airsupply
+    volumes:
+      - ./:/app
+    networks:
+      - as-airsupply
+networks:
+  as-airsupply:
+    driver: bridge
