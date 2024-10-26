@@ -41,8 +41,8 @@ next-env.d.ts
 .vscode
 
 yarn.lock
-.env.production
-.env.development
+#.env.production
+#.env.development
 
 *.zip
 *.7z
